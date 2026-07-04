@@ -15,7 +15,7 @@ from database import load_db, save_db
 
 # ========================= বেসিক সেটআপ =========================
 BOT_TOKEN = "8861000790:AAGmJbbBTLDnN2LJdwfhD0xrh_AKBdQ1p_4"          # <-- @BotFather থেকে পাওয়া টোকেন এখানে দিন
-ADMIN_IDS = [123456789]                    # <-- আপনার টেলিগ্রাম নিউমেরিক ইউজার আইডি দিন (একাধিক দিতে পারবেন)
+ADMIN_IDS = [8210146346]                    # <-- আপনার টেলিগ্রাম নিউমেরিক ইউজার আইডি দিন (একাধিক দিতে পারবেন)
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="Markdown")
 

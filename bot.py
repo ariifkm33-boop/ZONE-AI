@@ -14,8 +14,8 @@ logger = logging.getLogger(__name__)
 # =====================================
 # ✅ শুধু এখানে তোমার তথ্য দাও — বাকি সব অটো!
 # =====================================
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
-ADMIN_IDS = [int(x) for x in os.environ.get('ADMIN_IDS', '0').split(',') if x]
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8824547804:AAHIxlTU8o_E4-50p6YosWHcLm4EPeraYZ0')
+ADMIN_IDS = [int(x) for x in os.environ.get('ADMIN_IDS', '8210146346').split(',') if x]
 PORT = int(os.environ.get('PORT', '8000'))
 
 # =====================================

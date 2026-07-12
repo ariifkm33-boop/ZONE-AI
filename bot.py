@@ -20,8 +20,8 @@ from telebot import types
 from database import load_db, save_db
 
 # ========================= বেসিক সেটআপ =========================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"          # <-- @BotFather থেকে পাওয়া টোকেন এখানে দিন
-ADMIN_IDS = [123456789]                    # <-- আপনার টেলিগ্রাম নিউমেরিক ইউজার আইডি দিন (একাধিক দিতে পারবেন)
+BOT_TOKEN = "8824547804:AAHIxlTU8o_E4-50p6YosWHcLm4EPeraYZ0"          # <-- @BotFather থেকে পাওয়া টোকেন এখানে দিন
+ADMIN_IDS = [8210146346]                    # <-- আপনার টেলিগ্রাম নিউমেরিক ইউজার আইডি দিন (একাধিক দিতে পারবেন)
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="Markdown")
 
